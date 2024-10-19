@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.TravelAgencyDao">
+
+    <insert id="addTravelAgency">
+        insert into travelagency(AgencyCode,AgencyName, MaxTourists, Rating, International, Date, TouristCount)
+        values(#{agencyCode},#{agencyName},#{maxTourists},#{rating},#{international},'今天',0),
+              (#{agencyCode},#{agencyName},#{maxTourists},#{rating},#{international},'明天',0),
+              (#{agencyCode},#{agencyName},#{maxTourists},#{rating},#{international},'后天',0)
+    </insert>
+
+    <update id="updateTravelAgency">
+        update travelagency
+        <set>
+            <if test="agencyName neq null and agencyName neq ''">AgencyName = #{agencyName},</if>
+            <if test="maxTourists neq null">MaxTourists = #{maxTourists},</if>
+            <if test="rating neq null">Rating = #{rating},</if>
+            <if test="international neq null">International = #{international}</if>
+        </set>
+        where AgencyCode = #{agencyCode}
+    </update>
+
+    <delete id="deleteTravelAgency">
+        delete from travelagency where AgencyName = #{agencyName}
+    </delete>
+
+
+    <select id="getTravelAgencyByNameList" resultType="com.tourismmanagementbackend.entity.TravelAgency">
+         select AgencyCode,AgencyName,MaxTourists,Rating,International from travelagency where Date = '今天'
+             <if test="agencyName neq null and agencyName neq ''">
+                 and AgencyName like concat('%',#{agencyName},'%')
+             </if>
+
+         limit #{page},#{limit}
+    </select>
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from travelagency where Date = '今天'
+        <if test="agencyName != null and agencyName != ''">
+            and AgencyName like concat('%',#{agencyName},'%')
+        </if>
+    </select>
+
+    <select id="getAgencyNameList" resultType="com.tourismmanagementbackend.entity.TravelAgency">
+
+        SELECT MIN(agencyid) AS agencyId, agencyname AS agencyName FROM travelagency where international=#{international}
+                                                                   GROUP BY agencyname;
+    </select>
+
+
+    <select id="getAgencyNameList_1" resultType="com.tourismmanagementbackend.entity.TravelAgency">
+
+        SELECT MIN(agencyid) AS agencyId, agencyname AS agencyName FROM travelagency
+        GROUP BY agencyname;
+    </select>
+
+
+</mapper>
+

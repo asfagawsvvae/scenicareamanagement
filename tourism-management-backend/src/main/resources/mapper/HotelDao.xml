@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.HotelDao">
+    <insert id="addHotel">
+        insert into hotel(HotelName, Address, MaxCapacity, ParkingSpaces, OccupiedRooms, MaxRooms, Date, Location, HotelCode) values
+        (#{hotelName},#{address},#{maxCapacity},#{parkingSpaces},0,#{maxRooms},'今天',#{location},#{hotelCode}),
+        (#{hotelName},#{address},#{maxCapacity},#{parkingSpaces},0,#{maxRooms},'明天',#{location},#{hotelCode}),
+        (#{hotelName},#{address},#{maxCapacity},#{parkingSpaces},0,#{maxRooms},'后天',#{location},#{hotelCode})
+    </insert>
+
+    <update id="updateHotel">
+        update hotel
+        <set>
+            <if test="hotelName!= null and hotelName!= ''">
+                HotelName = #{hotelName},
+            </if>
+            <if test="address != null and address != ''">
+                Address = #{address},
+            </if>
+            <if test="maxCapacity != null and maxCapacity != ''">
+                MaxCapacity = #{maxCapacity},
+            </if>
+            <if test="parkingSpaces != null and parkingSpaces != ''">
+                ParkingSpaces = #{parkingSpaces},
+            </if>
+            <if test="occupiedRooms != null">
+                OccupiedRooms = #{maxRooms},
+            </if>
+            <if test="maxRooms != null and maxRooms != ''">
+                MaxRooms = #{maxRooms},
+            </if>
+            <if test="location != null and location != ''">
+                Location = #{location},
+            </if>
+        </set>
+        where HotelCode = #{hotelCode}
+    </update>
+
+    <delete id="deleteHotel">
+        delete from hotel where HotelName = #{hotelName}
+    </delete>
+
+    <select id="getHotelsByHotelNameList" resultType="com.tourismmanagementbackend.entity.Hotel">
+        SELECT * FROM hotel WHERE (HotelName LIKE CONCAT('%', #{hotelName} ,'%') OR Location LIKE CONCAT('%', #{hotelName} ,'%')) AND DATE = '今天'
+        limit #{page},#{limit}
+    </select>
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from hotel WHERE (HotelName LIKE CONCAT('%', #{hotelName} ,'%') OR Location LIKE CONCAT('%', #{hotelName} ,'%')) and Date = '今天'
+    </select>
+    <select id="getRatingByHotelName" resultType="java.lang.Double">
+        select AVG(Rating) from review where Target=#{hotelName}
+    </select>
+
+    <select id="getHotelByScenicAreaName" resultType="com.tourismmanagementbackend.entity.Hotel">
+     select hotelid,hotelname from hotel where date='今天' and location=#{location}
+     </select>
+
+
+    <select id="getHotelNum" resultType="com.tourismmanagementbackend.entity.Hotel">
+        select MaxRooms,ParkingSpaces,OccupiedRooms from hotel where hotelname=#{hotelName} and date=#{date}
+    </select>
+
+
+</mapper>

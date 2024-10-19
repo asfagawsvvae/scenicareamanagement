@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.MenuDao">
+
+
+    <select id="getMenusByUserType" resultType="com.tourismmanagementbackend.entity.Menu">
+            select * from menu where find_in_set(#{userType}, user_type)
+    </select>
+</mapper>
+

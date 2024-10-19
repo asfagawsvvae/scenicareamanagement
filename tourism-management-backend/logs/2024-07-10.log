@@ -1,0 +1,673 @@
+[INFO]2024-07-10 16:46:07,946 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 25592 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:46:07,946 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:46:07,975 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-10 16:46:07,975 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-10 16:46:08,375 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:08,376 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:08,388 - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:46:08,398 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:08,398 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:08,405 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:46:08,468 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:46:08,895 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:46:08,900 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:08,901 - Starting service [Tomcat]
+[INFO]2024-07-10 16:46:08,901 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:46:08,972 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:46:08,973 - Root WebApplicationContext: initialization completed in 997 ms
+[INFO]2024-07-10 16:46:09,071 - HikariPool-1 - Starting...
+[INFO]2024-07-10 16:46:09,157 - HikariPool-1 - Start completed.
+[INFO]2024-07-10 16:46:09,227 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-10 16:46:09,324 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-10 16:46:09,403 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:46:09,512 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:46:09,517 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:46:09,692 - 自定义Redis配置--
+[WARN]2024-07-10 16:46:09,725 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:46:09,832 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:46:10,006 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:46:10,019 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:10,036 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:46:10,046 - Started TourismManagementBackendApplication in 2.365 seconds (JVM running for 2.816)
+[INFO]2024-07-10 16:46:21,725 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-10 16:46:21,726 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-10 16:46:21,727 - Completed initialization in 1 ms
+[INFO]2024-07-10 16:46:23,624 - Restarting due to 13 class path changes (0 additions, 13 deletions, 0 modifications)
+[INFO]2024-07-10 16:46:23,644 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:23,644 - Stopping service [Tomcat]
+[INFO]2024-07-10 16:46:23,645 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2024-07-10 16:46:23,646 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:23,648 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:23,660 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:46:23,663 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-10 16:46:23,668 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-10 16:46:23,727 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 25592 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:46:23,728 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:46:23,812 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:23,812 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:23,814 - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:46:23,816 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:23,816 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:23,817 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:46:23,834 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:46:23,897 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:46:23,898 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:23,898 - Starting service [Tomcat]
+[INFO]2024-07-10 16:46:23,898 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:46:23,919 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:46:23,919 - Root WebApplicationContext: initialization completed in 190 ms
+[INFO]2024-07-10 16:46:23,946 - HikariPool-2 - Starting...
+[INFO]2024-07-10 16:46:23,949 - HikariPool-2 - Start completed.
+[INFO]2024-07-10 16:46:23,957 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:46:23,961 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:46:23,961 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN]2024-07-10 16:46:23,969 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:46:23,993 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:46:24,039 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:46:24,046 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:24,048 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:46:24,055 - Started TourismManagementBackendApplication in 0.351 seconds (JVM running for 16.825)
+[INFO]2024-07-10 16:46:24,057 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) found a single bean 'redisConnectionFactory'; @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[INFO]2024-07-10 16:46:25,458 - Restarting due to 13 class path changes (13 additions, 0 deletions, 0 modifications)
+[INFO]2024-07-10 16:46:25,473 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:25,474 - Stopping service [Tomcat]
+[INFO]2024-07-10 16:46:25,475 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:25,475 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:25,477 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:46:25,477 - HikariPool-2 - Shutdown initiated...
+[INFO]2024-07-10 16:46:25,479 - HikariPool-2 - Shutdown completed.
+[INFO]2024-07-10 16:46:25,527 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 25592 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:46:25,527 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:46:25,613 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:25,613 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:25,616 - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:46:25,617 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:25,618 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:25,619 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:46:25,633 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:46:25,692 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:46:25,693 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:25,693 - Starting service [Tomcat]
+[INFO]2024-07-10 16:46:25,693 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:46:25,710 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:46:25,710 - Root WebApplicationContext: initialization completed in 182 ms
+[INFO]2024-07-10 16:46:25,732 - HikariPool-3 - Starting...
+[INFO]2024-07-10 16:46:25,735 - HikariPool-3 - Start completed.
+[INFO]2024-07-10 16:46:25,741 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:46:25,747 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:46:25,747 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:46:25,761 - 自定义Redis配置--
+[WARN]2024-07-10 16:46:25,771 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:46:25,807 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:46:25,872 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:46:25,878 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:25,885 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:46:25,890 - Started TourismManagementBackendApplication in 0.38 seconds (JVM running for 18.661)
+[INFO]2024-07-10 16:46:25,891 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found beans named redisTemplate (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[INFO]2024-07-10 16:46:41,919 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:46:41,919 - HikariPool-3 - Shutdown initiated...
+[INFO]2024-07-10 16:46:41,921 - HikariPool-3 - Shutdown completed.
+[INFO]2024-07-10 16:46:43,762 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 29740 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:46:43,763 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:46:43,789 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-10 16:46:43,789 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-10 16:46:44,174 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:44,175 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:44,186 - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:46:44,196 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:46:44,197 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:46:44,204 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:46:44,268 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:46:44,668 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:46:44,673 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:44,674 - Starting service [Tomcat]
+[INFO]2024-07-10 16:46:44,674 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:46:44,741 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:46:44,742 - Root WebApplicationContext: initialization completed in 953 ms
+[INFO]2024-07-10 16:46:44,842 - HikariPool-1 - Starting...
+[INFO]2024-07-10 16:46:44,922 - HikariPool-1 - Start completed.
+[INFO]2024-07-10 16:46:44,984 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-10 16:46:45,082 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-10 16:46:45,160 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:46:45,266 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:46:45,272 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:46:45,439 - 自定义Redis配置--
+[WARN]2024-07-10 16:46:45,476 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:46:45,591 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:46:45,766 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:46:45,778 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:46:45,796 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:46:45,805 - Started TourismManagementBackendApplication in 2.287 seconds (JVM running for 2.729)
+[INFO]2024-07-10 16:46:48,068 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-10 16:46:48,068 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-10 16:46:48,068 - Completed initialization in 0 ms
+[INFO]2024-07-10 16:47:03,431 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-07-10 16:47:03,464 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:03,464 - Stopping service [Tomcat]
+[INFO]2024-07-10 16:47:03,464 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2024-07-10 16:47:03,466 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:03,468 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:03,478 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:47:03,481 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-10 16:47:03,487 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-10 16:47:03,552 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 29740 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:47:03,552 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:47:03,650 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:47:03,650 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:47:03,653 - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:47:03,654 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:47:03,654 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:47:03,656 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:47:03,670 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:47:03,715 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:47:03,715 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:03,715 - Starting service [Tomcat]
+[INFO]2024-07-10 16:47:03,715 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:47:03,731 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:47:03,731 - Root WebApplicationContext: initialization completed in 177 ms
+[INFO]2024-07-10 16:47:03,752 - HikariPool-2 - Starting...
+[INFO]2024-07-10 16:47:03,755 - HikariPool-2 - Start completed.
+[INFO]2024-07-10 16:47:03,760 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:47:03,763 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:47:03,764 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:47:03,777 - 自定义Redis配置--
+[WARN]2024-07-10 16:47:03,786 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:47:03,818 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:47:03,878 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:47:03,886 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:03,891 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:47:03,896 - Started TourismManagementBackendApplication in 0.37 seconds (JVM running for 20.819)
+[INFO]2024-07-10 16:47:03,897 - Condition evaluation unchanged
+[INFO]2024-07-10 16:47:10,397 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-07-10 16:47:10,411 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:10,411 - Stopping service [Tomcat]
+[INFO]2024-07-10 16:47:10,412 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:10,413 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:10,415 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:47:10,415 - HikariPool-2 - Shutdown initiated...
+[INFO]2024-07-10 16:47:10,417 - HikariPool-2 - Shutdown completed.
+[INFO]2024-07-10 16:47:10,455 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 29740 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:47:10,455 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:47:10,530 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:47:10,530 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:47:10,531 - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:47:10,533 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:47:10,533 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:47:10,534 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:47:10,547 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:47:10,586 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:47:10,587 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:10,587 - Starting service [Tomcat]
+[INFO]2024-07-10 16:47:10,587 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:47:10,601 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:47:10,601 - Root WebApplicationContext: initialization completed in 144 ms
+[INFO]2024-07-10 16:47:10,618 - HikariPool-3 - Starting...
+[INFO]2024-07-10 16:47:10,620 - HikariPool-3 - Start completed.
+[INFO]2024-07-10 16:47:10,626 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:47:10,628 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:47:10,628 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:47:10,642 - 自定义Redis配置--
+[WARN]2024-07-10 16:47:10,652 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:47:10,678 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:47:10,718 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:47:10,723 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:47:10,727 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:47:10,730 - Started TourismManagementBackendApplication in 0.291 seconds (JVM running for 27.654)
+[INFO]2024-07-10 16:47:10,731 - Condition evaluation unchanged
+[INFO]2024-07-10 16:48:24,906 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:48:24,907 - HikariPool-3 - Shutdown initiated...
+[INFO]2024-07-10 16:48:24,908 - HikariPool-3 - Shutdown completed.
+[INFO]2024-07-10 16:48:26,983 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 11012 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 16:48:26,984 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 16:48:27,011 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-10 16:48:27,011 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-10 16:48:27,391 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:48:27,392 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 16:48:27,404 - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 16:48:27,414 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 16:48:27,414 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 16:48:27,420 - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 16:48:27,489 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 16:48:27,877 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 16:48:27,883 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:48:27,883 - Starting service [Tomcat]
+[INFO]2024-07-10 16:48:27,884 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 16:48:27,948 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 16:48:27,948 - Root WebApplicationContext: initialization completed in 936 ms
+[INFO]2024-07-10 16:48:28,043 - HikariPool-1 - Starting...
+[INFO]2024-07-10 16:48:28,128 - HikariPool-1 - Start completed.
+[INFO]2024-07-10 16:48:28,191 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-10 16:48:28,287 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-10 16:48:28,360 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 16:48:28,468 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 16:48:28,473 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:48:28,641 - 自定义Redis配置--
+[WARN]2024-07-10 16:48:28,674 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 16:48:28,784 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 16:48:28,955 - LiveReload server is running on port 35729
+[INFO]2024-07-10 16:48:28,969 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 16:48:28,983 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 16:48:28,992 - Started TourismManagementBackendApplication in 2.248 seconds (JVM running for 2.687)
+[INFO]2024-07-10 16:48:35,155 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-10 16:48:35,155 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-10 16:48:35,156 - Completed initialization in 1 ms
+[INFO]2024-07-10 16:54:02,460 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 16:54:02,462 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-10 16:54:02,469 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-10 17:44:07,546 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 28524 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 17:44:07,547 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 17:44:07,612 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-10 17:44:07,612 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-10 17:44:08,204 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 17:44:08,205 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 17:44:08,220 - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 17:44:08,232 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 17:44:08,233 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 17:44:08,245 - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+[WARN]2024-07-10 17:44:08,323 - No MyBatis mapper was found in '[com.tourismmanagementbackend]' package. Please check your configuration.
+[INFO]2024-07-10 17:44:08,831 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 17:44:08,844 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 17:44:08,844 - Starting service [Tomcat]
+[INFO]2024-07-10 17:44:08,844 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 17:44:08,944 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 17:44:08,944 - Root WebApplicationContext: initialization completed in 1331 ms
+[INFO]2024-07-10 17:44:09,047 - HikariPool-1 - Starting...
+[INFO]2024-07-10 17:44:09,168 - HikariPool-1 - Start completed.
+[INFO]2024-07-10 17:44:09,252 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-10 17:44:09,417 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-10 17:44:09,525 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 17:44:09,641 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 17:44:09,646 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN]2024-07-10 17:44:09,659 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.tourismmanagementbackend.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2024-07-10 17:44:09,659 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 17:44:09,663 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-10 17:44:09,675 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-10 17:44:09,677 - Stopping service [Tomcat]
+[ERROR]2024-07-10 17:44:09,731 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.tourismmanagementbackend.dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.tourismmanagementbackend.dao.UserDao' in your configuration.
+
+[INFO]2024-07-10 17:45:48,520 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 25996 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 17:45:48,521 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 17:45:48,558 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-10 17:45:48,558 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-10 17:45:49,033 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 17:45:49,034 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 17:45:49,050 - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 17:45:49,060 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 17:45:49,060 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 17:45:49,069 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-10 17:45:49,612 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 17:45:49,619 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 17:45:49,619 - Starting service [Tomcat]
+[INFO]2024-07-10 17:45:49,619 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 17:45:49,701 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 17:45:49,701 - Root WebApplicationContext: initialization completed in 1142 ms
+[INFO]2024-07-10 17:45:49,813 - HikariPool-1 - Starting...
+[INFO]2024-07-10 17:45:49,901 - HikariPool-1 - Start completed.
+[INFO]2024-07-10 17:45:49,983 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-10 17:45:50,092 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-10 17:45:50,187 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 17:45:50,295 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 17:45:50,301 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 17:45:50,705 - 自定义Redis配置--
+[WARN]2024-07-10 17:45:50,750 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 17:45:50,904 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 17:45:51,070 - LiveReload server is running on port 35729
+[INFO]2024-07-10 17:45:51,084 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 17:45:51,100 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 17:45:51,110 - Started TourismManagementBackendApplication in 2.871 seconds (JVM running for 3.432)
+[INFO]2024-07-10 17:45:53,225 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-10 17:45:53,225 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-10 17:45:53,227 - Completed initialization in 2 ms
+[INFO]2024-07-10 17:48:13,249 - [channel=0x7a6d0d6d, /192.168.58.119:56082 -> /192.168.190.112:6379, epid=0x1, chid=0x1] Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-10 17:48:13,284 - Reconnecting, last destination was /192.168.190.112:6379
+[WARN]2024-07-10 18:43:38,619 - Cannot reconnect to [192.168.190.112/<unresolved>:6379]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-10 18:43:38,674 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[WARN]2024-07-10 18:43:38,799 - Cannot reconnect to [192.168.190.112/<unresolved>:6379]: No route to host: no further information: /192.168.190.112:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.190.112:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[WARN]2024-07-10 18:43:43,858 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m53s831ms867µs400ns).
+[INFO]2024-07-10 18:43:47,760 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 18:43:47,767 - Reconnected to 192.168.190.112/<unresolved>:6379, Channel channel=0x8acdaf58, /192.168.58.119:56852 -> /192.168.190.112:6379
+[INFO]2024-07-10 19:24:49,165 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 19:24:49,175 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-10 19:24:49,177 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-10 19:44:05,583 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 28816 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-10 19:44:05,583 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-10 19:44:05,616 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-10 19:44:05,616 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-10 19:44:06,034 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 19:44:06,035 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-10 19:44:06,046 - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-10 19:44:06,058 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-10 19:44:06,059 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-10 19:44:06,067 - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-10 19:44:06,564 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-10 19:44:06,571 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 19:44:06,571 - Starting service [Tomcat]
+[INFO]2024-07-10 19:44:06,572 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-10 19:44:06,644 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-10 19:44:06,645 - Root WebApplicationContext: initialization completed in 1028 ms
+[INFO]2024-07-10 19:44:06,746 - HikariPool-1 - Starting...
+[INFO]2024-07-10 19:44:06,842 - HikariPool-1 - Start completed.
+[INFO]2024-07-10 19:44:06,915 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-10 19:44:07,034 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-10 19:44:07,121 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-10 19:44:07,224 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-10 19:44:07,229 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-10 19:44:07,537 - 自定义Redis配置--
+[WARN]2024-07-10 19:44:07,571 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-10 19:44:07,682 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-10 19:44:07,802 - LiveReload server is running on port 35729
+[INFO]2024-07-10 19:44:07,813 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-10 19:44:07,828 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-10 19:44:07,838 - Started TourismManagementBackendApplication in 2.539 seconds (JVM running for 3.062)
+[INFO]2024-07-10 19:48:56,761 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-10 19:48:56,761 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-10 19:48:56,762 - Completed initialization in 1 ms
+[INFO]2024-07-10 22:22:08,270 - [channel=0x1111a32d, /192.168.58.119:51639 -> /192.168.190.112:6379, epid=0x1, chid=0x1] Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-10 22:22:08,343 - Reconnecting, last destination was /192.168.190.112:6379
+[WARN]2024-07-10 22:22:08,373 - Cannot reconnect to [192.168.190.112/<unresolved>:6379]: No route to host: no further information: /192.168.190.112:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.190.112:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-10 22:22:23,236 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:22:37,436 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:22:55,741 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:23:22,243 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:24:02,339 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:24:42,443 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:25:22,538 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:26:02,637 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:26:42,744 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:27:22,836 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:28:02,940 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:28:43,042 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:29:23,137 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:30:03,235 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:30:43,338 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:31:23,441 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:32:03,536 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:32:43,637 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:33:23,739 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:34:03,836 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:34:43,945 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:35:24,067 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:36:04,136 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:36:44,236 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:37:24,337 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:38:04,439 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:38:44,539 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:39:24,637 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:40:04,739 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:40:44,838 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:41:24,936 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:42:05,039 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:42:45,137 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:43:25,242 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:44:05,341 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:44:45,441 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:45:25,537 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:46:05,638 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:46:45,737 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:47:25,842 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:48:05,941 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:48:46,041 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:49:26,145 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:50:06,236 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:50:46,339 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:51:26,436 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:52:06,538 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:52:46,636 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:53:26,737 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:54:06,843 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:54:46,945 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:55:27,044 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:56:07,138 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:56:47,239 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:57:27,346 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:58:07,438 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:58:47,536 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 22:59:27,636 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:00:07,736 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:00:47,844 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:01:27,940 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:02:08,041 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:02:48,145 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:03:28,237 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:04:08,337 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:04:48,436 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:05:28,539 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:06:08,637 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:06:48,742 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:07:28,836 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:08:08,938 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:08:49,036 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:09:29,136 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:10:09,237 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:10:49,336 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:11:29,441 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:12:09,539 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:12:49,637 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:13:29,735 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:14:09,839 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:14:49,939 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:15:30,045 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:16:10,136 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:16:50,242 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:17:30,342 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:18:10,437 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:18:50,536 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:19:30,639 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:20:10,736 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:20:50,839 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:21:30,938 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:22:11,043 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:22:51,137 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:23:31,236 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:24:11,344 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:24:51,437 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:25:31,540 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:26:11,636 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:26:51,737 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:27:31,838 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:28:11,936 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:28:52,037 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:29:32,140 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:30:12,243 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:30:52,342 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:31:32,436 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:32:12,536 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:32:52,636 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:33:32,735 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:34:12,837 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:34:52,944 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:35:33,039 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:36:13,143 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:36:53,241 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:37:33,337 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:38:13,443 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:38:53,539 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:39:33,652 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:40:13,737 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:40:53,835 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:41:33,943 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:42:14,044 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:42:54,142 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:43:34,238 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:44:14,337 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:44:54,437 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:45:34,540 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:46:14,638 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:46:54,741 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:47:34,843 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:48:14,937 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:48:55,037 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:49:35,140 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:50:15,238 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:50:55,336 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:51:35,435 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:52:15,536 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:52:55,640 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:53:35,745 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:54:15,839 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:54:55,937 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:55:36,041 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:56:16,140 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:56:56,238 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:57:36,352 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:58:16,436 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:58:56,544 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379
+[INFO]2024-07-10 23:59:36,643 - Reconnecting, last destination was 192.168.190.112/<unresolved>:6379

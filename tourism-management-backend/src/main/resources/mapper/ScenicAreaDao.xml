@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.ScenicAreaDao">
+
+    <insert id="addScenicArea">
+        insert into scenicarea(ScenicAreaName, ScenicAreaCode, MaxCapacity, ParkingSpaces, Address, ImageURL, TicketPrice, VisitorCount, Date, Description,International,OccupiedCapacity) values
+                              (#{scenicAreaName},#{scenicAreaCode},#{maxCapacity},#{parkingSpaces},#{address},#{imageUrl},#{ticketPrice},0,'今天',#{description},#{international},0),
+                              (#{scenicAreaName},#{scenicAreaCode},#{maxCapacity},#{parkingSpaces},#{address},#{imageUrl},#{ticketPrice},0,'明天',#{description},#{international},0),
+                              (#{scenicAreaName},#{scenicAreaCode},#{maxCapacity},#{parkingSpaces},#{address},#{imageUrl},#{ticketPrice},0,'后天',#{description},#{international},0)
+    </insert>
+    <update id="updateScenicArea">
+        update scenicarea
+        <set>
+            <if test="scenicAreaName neq null and scenicAreaName neq ''">ScenicAreaName = #{scenicAreaName},</if>
+            <if test="maxCapacity neq null">Maxcapacity = #{maxCapacity},</if>
+            <if test="parkingSpaces neq null">ParkingSpaces = #{parkingSpaces},</if>
+            <if test="address neq null and address neq ''">Address = #{address},</if>
+            <if test="ticketPrice neq null">TicketPrice = #{ticketPrice},</if>
+            <if test="description neq null and description neq ''">Description = #{description},</if>
+            <if test="international neq null">International = #{international}</if>
+        </set>
+        where ScenicAreaCode = #{scenicAreaCode}
+    </update>
+    <delete id="deleteScenicArea"> delete from scenicarea where ScenicAreaName = #{scenicAreaName} </delete>
+    <select id="getScenicAreaList" resultType="com.tourismmanagementbackend.entity.ScenicArea">
+        select * from scenicarea where Date = '今天'
+        <if test="scenicAreaName neq null and scenicAreaName neq ''">and ScenicAreaName like concat('%',#{scenicAreaName},'%')</if>
+        limit #{page},#{limit}
+    </select>
+    <select id="getScenicAreaListByName" resultType="com.tourismmanagementbackend.entity.ScenicArea"> select ScenicAreaName,ScenicAreaCode,MaxCapacity,ParkingSpaces,Address,TicketPrice from scenicarea where Date = '今天' and ScenicAreaName like concat('%',#{scenicAreaName},'%') limit #{page},#{limit} </select>
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from scenicarea where Date = '今天'
+        <if test="scenicAreaName != null and scenicAreaName != ''"> and ScenicAreaName like concat('%',#{scenicAreaName},'%') </if>
+    </select>
+    <select id="getScenicInfo" resultType="com.tourismmanagementbackend.entity.ScenicArea">
+        select * from scenicarea where date = '今天' and international = 1
+    </select>
+
+    <select id="getScenicInfo_1" resultType="com.tourismmanagementbackend.entity.ScenicArea">
+        select * from scenicarea where date = '今天' and international = 0
+    </select>
+    <select id="getRateByName" resultType="java.lang.Double"> select avg(Rating) from review where Target = #{scenicAreaName} </select>
+</mapper>
+

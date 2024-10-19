@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.VehicleDao">
+    <insert id="addVehicle">
+        insert into vehicle(VehicleNumber, VehicleType, Agency, State) values (#{vehicleNumber},#{vehicleType},#{agency},#{state})
+    </insert>
+    <update id="updateVehicle">
+        update vehicle
+        <set>
+            <if test="vehicleNumber != null and vehicleNumber != ''">VehicleNumber = #{vehicleNumber},</if>
+            <if test="vehicleType != null and vehicleType != ''">VehicleType = #{vehicleType},</if>
+            <if test="state != null and state != ''">State = #{state}</if>
+        </set>
+        where VehicleId = #{vehicleId}
+    </update>
+    <delete id="deleteVehicle">
+        delete from vehicle where VehicleId = #{vehicleId}
+    </delete>
+
+    <select id="getVehicleListByAgency" resultType="com.tourismmanagementbackend.entity.Vehicle">
+        select * from vehicle where Agency = #{agency}
+    </select>
+</mapper>
+

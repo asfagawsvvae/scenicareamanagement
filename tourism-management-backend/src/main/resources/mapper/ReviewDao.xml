@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.ReviewDao">
+
+    <select id="getReviewList" resultType="com.tourismmanagementbackend.entity.Review">
+        select * from review
+        <where>
+            <if test="username!=null and username!=''">
+                and username like concat('%', #{username}, '%')
+            </if>
+            <if test="target!=null and target!=''">
+                and target like concat('%', #{target}, '%')
+            </if>
+        </where>
+        limit #{page}, #{limit}
+    </select>
+
+    <select id="countPage" resultType="int">
+        select count(*) from review
+        <where>
+            <if test="username!=null and username!=''">
+                and username like concat('%', #{username}, '%')
+            </if>
+            <if test="target!=null and target!=''">
+                and target like concat('%', #{target}, '%')
+            </if>
+        </where>
+    </select>
+
+    <delete id="deleteReviewByReviewId">
+        delete from review where ReviewId = #{id}
+    </delete>
+
+    <select id="getReviewByUsername" resultType="com.tourismmanagementbackend.entity.Review">
+        select * from review where username = #{username} limit #{page}, #{limit}
+    </select>
+
+    <select id="countPageByUsername" resultType="int">
+        select count(*) from review where username = #{username}
+    </select>
+
+    <insert id="addReview">
+        insert into review(username, rating, comment, target, reviewDate)
+        values(#{username}, #{rating}, #{comment}, #{target}, CURDATE())
+    </insert>
+
+    <select id="getAllScenic" resultType="java.lang.String">
+        select distinct scenicareaname from scenicarea
+    </select>
+
+    <select id="getAllHotel" resultType="java.lang.String">
+        select distinct hotelname from hotel
+    </select>
+
+    <update id="updateReview">
+        update review set rating = #{rating}, comment = #{comment}, reviewDate=CURDATE() where reviewId = #{reviewId}
+    </update>
+</mapper>

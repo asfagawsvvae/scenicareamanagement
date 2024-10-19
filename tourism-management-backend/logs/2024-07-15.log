@@ -1,0 +1,1338 @@
+[INFO]2024-07-15 00:03:47,137 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-07-15 00:03:47,187 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:47,187 - Stopping service [Tomcat]
+[INFO]2024-07-15 00:03:47,190 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2024-07-15 00:03:47,197 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:47,200 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:47,236 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:03:47,248 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 00:03:47,250 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 00:03:47,403 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 29360 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 00:03:47,403 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 00:03:47,557 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:03:47,557 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 00:03:47,566 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 00:03:47,569 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:03:47,569 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 00:03:47,571 - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 00:03:47,688 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 00:03:47,688 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:47,689 - Starting service [Tomcat]
+[INFO]2024-07-15 00:03:47,689 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 00:03:47,705 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 00:03:47,705 - Root WebApplicationContext: initialization completed in 300 ms
+[INFO]2024-07-15 00:03:47,735 - HikariPool-2 - Starting...
+[INFO]2024-07-15 00:03:47,739 - HikariPool-2 - Start completed.
+[INFO]2024-07-15 00:03:47,746 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 00:03:47,762 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 00:03:47,763 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:03:47,880 - 自定义Redis配置--
+[WARN]2024-07-15 00:03:47,903 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 00:03:47,953 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 00:03:48,010 - LiveReload server is running on port 35729
+[INFO]2024-07-15 00:03:48,015 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:48,019 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 00:03:48,023 - Started TourismManagementBackendApplication in 0.65 seconds (JVM running for 11490.943)
+[INFO]2024-07-15 00:03:48,025 - Condition evaluation unchanged
+[INFO]2024-07-15 00:03:50,301 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 36660 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 00:03:50,302 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 00:03:50,337 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 00:03:50,337 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 00:03:50,462 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-07-15 00:03:50,480 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:50,480 - Stopping service [Tomcat]
+[INFO]2024-07-15 00:03:50,481 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:50,482 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:50,485 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:03:50,486 - HikariPool-2 - Shutdown initiated...
+[INFO]2024-07-15 00:03:50,488 - HikariPool-2 - Shutdown completed.
+[INFO]2024-07-15 00:03:50,563 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 29360 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 00:03:50,563 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 00:03:50,749 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:03:50,749 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 00:03:50,760 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 00:03:50,762 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:03:50,763 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 00:03:50,768 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 00:03:50,858 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 00:03:50,859 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:50,859 - Starting service [Tomcat]
+[INFO]2024-07-15 00:03:50,859 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 00:03:50,885 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 00:03:50,885 - Root WebApplicationContext: initialization completed in 319 ms
+[INFO]2024-07-15 00:03:50,891 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:03:50,892 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 00:03:50,906 - HikariPool-3 - Starting...
+[INFO]2024-07-15 00:03:50,910 - HikariPool-3 - Start completed.
+[INFO]2024-07-15 00:03:50,918 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 00:03:50,921 - Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 00:03:50,934 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 00:03:50,934 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:03:50,935 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:03:50,936 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 00:03:50,950 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 00:03:51,048 - 自定义Redis配置--
+[WARN]2024-07-15 00:03:51,061 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 00:03:51,096 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 00:03:51,138 - LiveReload server is running on port 35729
+[INFO]2024-07-15 00:03:51,141 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:51,145 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 00:03:51,150 - Started TourismManagementBackendApplication in 0.617 seconds (JVM running for 11494.071)
+[INFO]2024-07-15 00:03:51,152 - Condition evaluation unchanged
+[INFO]2024-07-15 00:03:51,510 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 00:03:51,517 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:51,517 - Starting service [Tomcat]
+[INFO]2024-07-15 00:03:51,517 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 00:03:51,588 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 00:03:51,588 - Root WebApplicationContext: initialization completed in 1251 ms
+[INFO]2024-07-15 00:03:51,694 - HikariPool-1 - Starting...
+[INFO]2024-07-15 00:03:51,780 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 00:03:51,857 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 00:03:51,971 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 00:03:52,054 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 00:03:52,348 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 00:03:52,352 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:03:52,713 - 自定义Redis配置--
+[WARN]2024-07-15 00:03:52,754 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 00:03:52,874 - Adding welcome page: class path resource [static/index.html]
+[WARN]2024-07-15 00:03:53,016 - Unable to start LiveReload server
+[INFO]2024-07-15 00:03:53,030 - Starting ProtocolHandler ["http-nio-8080"]
+[WARN]2024-07-15 00:03:53,032 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO]2024-07-15 00:03:53,041 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:03:53,043 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 00:03:53,048 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 00:03:53,049 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:53,049 - Stopping service [Tomcat]
+[INFO]2024-07-15 00:03:53,051 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:03:53,051 - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR]2024-07-15 00:03:53,067 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO]2024-07-15 00:04:10,447 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 00:04:10,447 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 00:04:10,447 - Completed initialization in 0 ms
+[INFO]2024-07-15 00:07:49,520 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:07:49,520 - HikariPool-3 - Shutdown initiated...
+[INFO]2024-07-15 00:07:49,521 - HikariPool-3 - Shutdown completed.
+[INFO]2024-07-15 00:07:52,477 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 37196 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 00:07:52,478 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 00:07:52,527 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 00:07:52,527 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 00:07:53,120 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:07:53,121 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 00:07:53,142 - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 00:07:53,154 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:07:53,156 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 00:07:53,168 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 00:07:53,975 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 00:07:53,984 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:07:53,984 - Starting service [Tomcat]
+[INFO]2024-07-15 00:07:53,984 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 00:07:54,061 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 00:07:54,061 - Root WebApplicationContext: initialization completed in 1533 ms
+[INFO]2024-07-15 00:07:54,273 - HikariPool-1 - Starting...
+[INFO]2024-07-15 00:07:54,434 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 00:07:54,537 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 00:07:54,706 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 00:07:54,810 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 00:07:55,084 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 00:07:55,089 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:07:55,500 - 自定义Redis配置--
+[WARN]2024-07-15 00:07:55,546 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 00:07:55,720 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 00:07:55,893 - LiveReload server is running on port 35729
+[INFO]2024-07-15 00:07:55,905 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:07:55,942 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 00:07:55,956 - Started TourismManagementBackendApplication in 3.823 seconds (JVM running for 4.187)
+[INFO]2024-07-15 00:08:02,182 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 00:08:02,182 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 00:08:02,183 - Completed initialization in 1 ms
+[ERROR]2024-07-15 00:08:15,293 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy102.deleteTourguide(Unknown Source)
+	at com.tourismmanagementbackend.service.impl.TourguideServiceImpl.deleteTourguide(TourguideServiceImpl.java:60)
+	at com.tourismmanagementbackend.controller.TourguideController.deleteTourguide(TourguideController.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:97)
+	at com.tourismmanagementbackend.config.CorsFilter.doFilter(CorsFilter.java:59)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR]2024-07-15 00:08:42,689 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy102.deleteTourguide(Unknown Source)
+	at com.tourismmanagementbackend.service.impl.TourguideServiceImpl.deleteTourguide(TourguideServiceImpl.java:60)
+	at com.tourismmanagementbackend.controller.TourguideController.deleteTourguide(TourguideController.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:97)
+	at com.tourismmanagementbackend.config.CorsFilter.doFilter(CorsFilter.java:59)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-15 00:08:48,208 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:08:48,210 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 00:08:48,229 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 00:08:50,334 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 32444 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 00:08:50,335 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 00:08:50,380 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 00:08:50,380 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 00:08:50,858 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:08:50,859 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 00:08:50,878 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 00:08:50,887 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:08:50,888 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 00:08:50,896 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 00:08:51,610 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 00:08:51,620 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:08:51,620 - Starting service [Tomcat]
+[INFO]2024-07-15 00:08:51,621 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 00:08:51,702 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 00:08:51,703 - Root WebApplicationContext: initialization completed in 1323 ms
+[INFO]2024-07-15 00:08:51,935 - HikariPool-1 - Starting...
+[INFO]2024-07-15 00:08:52,071 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 00:08:52,181 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 00:08:52,382 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 00:08:52,472 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 00:08:52,750 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 00:08:52,754 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:08:53,138 - 自定义Redis配置--
+[WARN]2024-07-15 00:08:53,180 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 00:08:53,354 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 00:08:53,537 - LiveReload server is running on port 35729
+[INFO]2024-07-15 00:08:53,550 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:08:53,572 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 00:08:53,587 - Started TourismManagementBackendApplication in 3.559 seconds (JVM running for 3.894)
+[INFO]2024-07-15 00:08:57,983 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 00:08:57,984 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 00:08:57,984 - Completed initialization in 0 ms
+[ERROR]2024-07-15 00:08:59,898 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy102.deleteTourguide(Unknown Source)
+	at com.tourismmanagementbackend.service.impl.TourguideServiceImpl.deleteTourguide(TourguideServiceImpl.java:60)
+	at com.tourismmanagementbackend.controller.TourguideController.deleteTourguide(TourguideController.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:97)
+	at com.tourismmanagementbackend.config.CorsFilter.doFilter(CorsFilter.java:59)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR]2024-07-15 00:11:43,318 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.tourismmanagementbackend.dao.TourguideDao.deleteTourguide
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy102.deleteTourguide(Unknown Source)
+	at com.tourismmanagementbackend.service.impl.TourguideServiceImpl.deleteTourguide(TourguideServiceImpl.java:60)
+	at com.tourismmanagementbackend.controller.TourguideController.deleteTourguide(TourguideController.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:97)
+	at com.tourismmanagementbackend.config.CorsFilter.doFilter(CorsFilter.java:59)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-15 00:11:48,027 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:11:48,028 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 00:11:48,033 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 00:11:49,766 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 18092 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 00:11:49,767 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 00:11:49,810 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 00:11:49,810 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 00:11:50,272 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:11:50,273 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 00:11:50,293 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 00:11:50,304 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 00:11:50,304 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 00:11:50,313 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 00:11:50,993 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 00:11:51,001 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:11:51,002 - Starting service [Tomcat]
+[INFO]2024-07-15 00:11:51,002 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 00:11:51,082 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 00:11:51,082 - Root WebApplicationContext: initialization completed in 1272 ms
+[INFO]2024-07-15 00:11:51,290 - HikariPool-1 - Starting...
+[INFO]2024-07-15 00:11:51,411 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 00:11:51,505 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 00:11:51,686 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 00:11:51,777 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 00:11:52,048 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 00:11:52,053 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 00:11:52,451 - 自定义Redis配置--
+[WARN]2024-07-15 00:11:52,504 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 00:11:52,700 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 00:11:52,879 - LiveReload server is running on port 35729
+[INFO]2024-07-15 00:11:52,889 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 00:11:52,914 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 00:11:52,927 - Started TourismManagementBackendApplication in 3.459 seconds (JVM running for 3.803)
+[INFO]2024-07-15 00:11:59,301 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 00:11:59,302 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 00:11:59,302 - Completed initialization in 0 ms
+[INFO]2024-07-15 02:27:14,427 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 12756 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 02:27:14,429 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 02:27:14,503 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 02:27:14,503 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 02:27:15,891 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 02:27:15,893 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 02:27:15,936 - Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 02:27:15,960 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 02:27:15,962 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 02:27:15,984 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 02:27:17,756 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 02:27:17,771 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 02:27:17,772 - Starting service [Tomcat]
+[INFO]2024-07-15 02:27:17,772 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 02:27:17,926 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 02:27:17,926 - Root WebApplicationContext: initialization completed in 3422 ms
+[INFO]2024-07-15 02:27:18,296 - HikariPool-1 - Starting...
+[ERROR]2024-07-15 02:27:19,689 - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.tourismmanagementbackend.TourismManagementBackendApplication.main(TourismManagementBackendApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 53 common frames omitted
+[INFO]2024-07-15 02:27:20,019 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 02:27:20,571 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 02:27:21,083 - HikariPool-1 - Starting...
+[ERROR]2024-07-15 02:27:22,105 - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.tourismmanagementbackend.TourismManagementBackendApplication.main(TourismManagementBackendApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 54 common frames omitted
+[WARN]2024-07-15 02:27:22,106 - HHH000342: Could not obtain connection to query metadata
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.tourismmanagementbackend.TourismManagementBackendApplication.main(TourismManagementBackendApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 54 common frames omitted
+[ERROR]2024-07-15 02:27:22,109 - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[WARN]2024-07-15 02:27:22,110 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[INFO]2024-07-15 02:27:22,119 - Stopping service [Tomcat]
+[ERROR]2024-07-15 02:27:22,300 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.tourismmanagementbackend.TourismManagementBackendApplication.main(TourismManagementBackendApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 38 common frames omitted
+[INFO]2024-07-15 02:30:14,965 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 6240 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 02:30:14,966 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 02:30:15,094 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 02:30:15,094 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 02:30:17,021 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 02:30:17,024 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 02:30:17,107 - Finished Spring Data repository scanning in 37 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 02:30:17,151 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 02:30:17,153 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 02:30:17,187 - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 02:30:19,098 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 02:30:19,128 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 02:30:19,129 - Starting service [Tomcat]
+[INFO]2024-07-15 02:30:19,134 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 02:30:19,440 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 02:30:19,440 - Root WebApplicationContext: initialization completed in 4346 ms
+[INFO]2024-07-15 02:30:20,336 - HikariPool-1 - Starting...
+[INFO]2024-07-15 02:30:20,749 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 02:30:21,209 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 02:30:21,677 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 02:30:21,923 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 02:30:22,713 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 02:30:22,726 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 02:30:23,985 - 自定义Redis配置--
+[WARN]2024-07-15 02:30:24,065 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 02:30:24,606 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 02:30:25,371 - LiveReload server is running on port 35729
+[INFO]2024-07-15 02:30:25,405 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 02:30:25,514 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 02:30:25,560 - Started TourismManagementBackendApplication in 11.74 seconds (JVM running for 13.337)
+[INFO]2024-07-15 02:30:31,142 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 02:30:31,143 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 02:30:31,144 - Completed initialization in 1 ms
+[INFO]2024-07-15 11:29:01,428 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 11:29:01,436 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 11:29:01,439 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 11:29:06,412 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 15352 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 11:29:06,413 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 11:29:06,464 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 11:29:06,464 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 11:29:06,961 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 11:29:06,962 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 11:29:06,980 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 11:29:06,990 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 11:29:06,991 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 11:29:07,000 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 11:29:07,747 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 11:29:07,756 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 11:29:07,756 - Starting service [Tomcat]
+[INFO]2024-07-15 11:29:07,756 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 11:29:07,837 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 11:29:07,837 - Root WebApplicationContext: initialization completed in 1373 ms
+[INFO]2024-07-15 11:29:08,093 - HikariPool-1 - Starting...
+[INFO]2024-07-15 11:29:08,243 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 11:29:08,380 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 11:29:08,586 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 11:29:08,685 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 11:29:08,953 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 11:29:08,957 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 11:29:09,412 - 自定义Redis配置--
+[WARN]2024-07-15 11:29:09,462 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 11:29:09,689 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 11:29:09,878 - LiveReload server is running on port 35729
+[INFO]2024-07-15 11:29:09,895 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 11:29:09,930 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 11:29:09,944 - Started TourismManagementBackendApplication in 3.837 seconds (JVM running for 4.169)
+[INFO]2024-07-15 11:31:54,174 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 11:31:54,175 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 11:31:54,175 - Completed initialization in 0 ms
+[WARN]2024-07-15 12:53:22,152 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s173ms748µs200ns).
+[WARN]2024-07-15 14:25:42,317 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s635ms832µs300ns).
+[INFO]2024-07-15 14:26:47,901 - [channel=0x5c812a2d, /192.168.58.145:58288 -> /47.110.241.39:6379, epid=0x1, chid=0x1] Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO]2024-07-15 14:26:47,944 - Reconnecting, last destination was /47.110.241.39:6379
+[INFO]2024-07-15 14:26:48,150 - Reconnected to 47.110.241.39/<unresolved>:6379, Channel channel=0x97143f44, /192.168.58.145:52941 -> /47.110.241.39:6379
+[WARN]2024-07-15 14:45:17,097 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m34s545ms21µs600ns).
+[INFO]2024-07-15 16:16:05,447 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:16:05,454 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 16:16:05,456 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 16:18:01,282 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 22196 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 16:18:01,283 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 16:18:01,326 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 16:18:01,326 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 16:18:01,847 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:18:01,848 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 16:18:01,868 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 16:18:01,879 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:18:01,880 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 16:18:01,889 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 16:18:02,618 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 16:18:02,627 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:18:02,628 - Starting service [Tomcat]
+[INFO]2024-07-15 16:18:02,628 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 16:18:02,710 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 16:18:02,710 - Root WebApplicationContext: initialization completed in 1384 ms
+[INFO]2024-07-15 16:18:03,070 - HikariPool-1 - Starting...
+[INFO]2024-07-15 16:18:03,256 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 16:18:03,407 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 16:18:03,600 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 16:18:03,694 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 16:18:03,997 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 16:18:04,001 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:18:04,448 - 自定义Redis配置--
+[WARN]2024-07-15 16:18:04,490 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 16:18:04,655 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 16:18:04,831 - LiveReload server is running on port 35729
+[INFO]2024-07-15 16:18:04,847 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:18:04,903 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 16:18:04,921 - Started TourismManagementBackendApplication in 3.969 seconds (JVM running for 4.351)
+[INFO]2024-07-15 16:18:09,913 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 16:18:09,913 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 16:18:09,915 - Completed initialization in 1 ms
+[INFO]2024-07-15 16:36:54,637 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:36:54,639 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 16:36:54,649 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 16:36:57,812 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 15756 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 16:36:57,812 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 16:36:57,857 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 16:36:57,857 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 16:36:58,385 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:36:58,386 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 16:36:58,409 - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 16:36:58,419 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:36:58,420 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 16:36:58,430 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 16:36:59,161 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 16:36:59,169 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:36:59,170 - Starting service [Tomcat]
+[INFO]2024-07-15 16:36:59,170 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 16:36:59,249 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 16:36:59,249 - Root WebApplicationContext: initialization completed in 1392 ms
+[INFO]2024-07-15 16:36:59,509 - HikariPool-1 - Starting...
+[INFO]2024-07-15 16:36:59,642 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 16:36:59,738 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 16:36:59,913 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 16:37:00,014 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 16:37:00,281 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 16:37:00,286 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:37:00,716 - 自定义Redis配置--
+[WARN]2024-07-15 16:37:00,761 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 16:37:00,964 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 16:37:01,139 - LiveReload server is running on port 35729
+[INFO]2024-07-15 16:37:01,161 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:37:01,194 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 16:37:01,206 - Started TourismManagementBackendApplication in 3.702 seconds (JVM running for 4.044)
+[INFO]2024-07-15 16:37:17,249 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 16:37:17,249 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 16:37:17,251 - Completed initialization in 2 ms
+[INFO]2024-07-15 16:43:30,347 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:43:30,349 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 16:43:30,355 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 16:43:34,120 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 13368 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 16:43:34,121 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 16:43:34,164 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 16:43:34,164 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 16:43:34,653 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:43:34,654 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 16:43:34,675 - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 16:43:34,686 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:43:34,687 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 16:43:34,696 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 16:43:35,462 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 16:43:35,472 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:43:35,473 - Starting service [Tomcat]
+[INFO]2024-07-15 16:43:35,473 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 16:43:35,555 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 16:43:35,555 - Root WebApplicationContext: initialization completed in 1391 ms
+[INFO]2024-07-15 16:43:35,856 - HikariPool-1 - Starting...
+[INFO]2024-07-15 16:43:36,004 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 16:43:36,144 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 16:43:36,356 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 16:43:36,453 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 16:43:36,726 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 16:43:36,730 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:43:37,156 - 自定义Redis配置--
+[WARN]2024-07-15 16:43:37,208 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 16:43:37,416 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 16:43:37,582 - LiveReload server is running on port 35729
+[INFO]2024-07-15 16:43:37,603 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:43:37,626 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 16:43:37,643 - Started TourismManagementBackendApplication in 3.822 seconds (JVM running for 4.161)
+[INFO]2024-07-15 16:47:17,746 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 16:47:17,746 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 16:47:17,747 - Completed initialization in 1 ms
+[ERROR]2024-07-15 16:47:41,430 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'international 
+        where ScenicAreaCode = #{scenicAreaCode' in 'class com.tourismmanagementbackend.entity.ScenicArea'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'international 
+        where ScenicAreaCode = #{scenicAreaCode' in 'class com.tourismmanagementbackend.entity.ScenicArea'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:374)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:164)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:88)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at jdk.proxy2/jdk.proxy2.$Proxy96.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy102.updateScenicArea(Unknown Source)
+	at com.tourismmanagementbackend.service.impl.ScenicAreaServiceImpl.updateScenicArea(ScenicAreaServiceImpl.java:43)
+	at com.tourismmanagementbackend.controller.ScenicAreaController.updateScenicArea(ScenicAreaController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:97)
+	at com.tourismmanagementbackend.config.CorsFilter.doFilter(CorsFilter.java:59)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[WARN]2024-07-15 16:47:46,205 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.tourismmanagementbackend.utils.result.DataResult com.tourismmanagementbackend.controller.ScenicAreaController.updateScenicArea(com.tourismmanagementbackend.entity.ScenicArea)]
+[INFO]2024-07-15 16:48:22,575 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:48:22,576 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 16:48:22,581 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 16:48:24,422 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 25308 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 16:48:24,423 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 16:48:24,463 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 16:48:24,463 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 16:48:24,926 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:48:24,927 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 16:48:24,946 - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 16:48:24,958 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 16:48:24,959 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 16:48:24,969 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 16:48:25,659 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 16:48:25,667 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:48:25,667 - Starting service [Tomcat]
+[INFO]2024-07-15 16:48:25,667 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 16:48:25,746 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 16:48:25,747 - Root WebApplicationContext: initialization completed in 1284 ms
+[INFO]2024-07-15 16:48:26,054 - HikariPool-1 - Starting...
+[INFO]2024-07-15 16:48:26,197 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 16:48:26,334 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 16:48:26,530 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 16:48:26,623 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 16:48:26,889 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 16:48:26,893 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 16:48:27,319 - 自定义Redis配置--
+[WARN]2024-07-15 16:48:27,364 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 16:48:27,589 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 16:48:27,799 - LiveReload server is running on port 35729
+[INFO]2024-07-15 16:48:27,827 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 16:48:27,846 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 16:48:27,859 - Started TourismManagementBackendApplication in 3.731 seconds (JVM running for 4.074)
+[INFO]2024-07-15 16:48:33,878 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 16:48:33,878 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 16:48:33,879 - Completed initialization in 0 ms
+[INFO]2024-07-15 17:15:51,966 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 17:15:51,968 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 17:15:51,973 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 17:15:56,233 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 10472 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 17:15:56,233 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 17:15:56,274 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 17:15:56,274 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 17:15:56,782 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 17:15:56,783 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 17:15:56,804 - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 17:15:56,814 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 17:15:56,815 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 17:15:56,825 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 17:15:57,522 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 17:15:57,531 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 17:15:57,531 - Starting service [Tomcat]
+[INFO]2024-07-15 17:15:57,531 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 17:15:57,614 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 17:15:57,614 - Root WebApplicationContext: initialization completed in 1340 ms
+[INFO]2024-07-15 17:15:57,894 - HikariPool-1 - Starting...
+[INFO]2024-07-15 17:15:58,050 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 17:15:58,148 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 17:15:58,341 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 17:15:58,440 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 17:15:58,712 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 17:15:58,715 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 17:15:59,169 - 自定义Redis配置--
+[WARN]2024-07-15 17:15:59,217 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 17:15:59,441 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 17:15:59,657 - LiveReload server is running on port 35729
+[INFO]2024-07-15 17:15:59,682 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 17:15:59,703 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 17:15:59,715 - Started TourismManagementBackendApplication in 3.782 seconds (JVM running for 4.119)
+[INFO]2024-07-15 17:16:07,001 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 17:16:07,001 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 17:16:07,002 - Completed initialization in 1 ms
+[INFO]2024-07-15 17:34:01,185 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 17:34:01,188 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 17:34:01,195 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 17:34:03,390 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 7276 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 17:34:03,390 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 17:34:03,428 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 17:34:03,428 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 17:34:03,926 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 17:34:03,927 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 17:34:03,949 - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 17:34:03,959 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 17:34:03,960 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 17:34:03,970 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 17:34:04,694 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 17:34:04,704 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 17:34:04,704 - Starting service [Tomcat]
+[INFO]2024-07-15 17:34:04,705 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 17:34:04,782 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 17:34:04,782 - Root WebApplicationContext: initialization completed in 1354 ms
+[INFO]2024-07-15 17:34:05,078 - HikariPool-1 - Starting...
+[INFO]2024-07-15 17:34:05,231 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 17:34:05,358 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 17:34:05,548 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 17:34:05,651 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 17:34:05,923 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 17:34:05,927 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 17:34:06,330 - 自定义Redis配置--
+[WARN]2024-07-15 17:34:06,383 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 17:34:06,571 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 17:34:06,804 - LiveReload server is running on port 35729
+[INFO]2024-07-15 17:34:06,818 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 17:34:06,845 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 17:34:06,859 - Started TourismManagementBackendApplication in 3.76 seconds (JVM running for 4.099)
+[INFO]2024-07-15 17:34:09,890 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 17:34:09,890 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 17:34:09,891 - Completed initialization in 1 ms
+[INFO]2024-07-15 17:35:43,537 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 17:35:43,539 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 17:35:43,543 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 17:35:46,551 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 8704 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 17:35:46,552 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 17:35:46,595 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 17:35:46,595 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 17:35:47,098 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 17:35:47,099 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 17:35:47,119 - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 17:35:47,130 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 17:35:47,131 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 17:35:47,142 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 17:35:47,901 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 17:35:47,912 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 17:35:47,913 - Starting service [Tomcat]
+[INFO]2024-07-15 17:35:47,913 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 17:35:47,993 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 17:35:47,994 - Root WebApplicationContext: initialization completed in 1399 ms
+[INFO]2024-07-15 17:35:48,329 - HikariPool-1 - Starting...
+[INFO]2024-07-15 17:35:48,527 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 17:35:48,647 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 17:35:48,835 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 17:35:48,925 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 17:35:49,186 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 17:35:49,190 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 17:35:49,642 - 自定义Redis配置--
+[WARN]2024-07-15 17:35:49,693 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 17:35:49,893 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 17:35:50,102 - LiveReload server is running on port 35729
+[INFO]2024-07-15 17:35:50,118 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 17:35:50,142 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 17:35:50,154 - Started TourismManagementBackendApplication in 3.905 seconds (JVM running for 4.242)
+[INFO]2024-07-15 17:35:54,002 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 17:35:54,002 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 17:35:54,003 - Completed initialization in 1 ms
+[INFO]2024-07-15 20:50:33,065 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 20:50:33,072 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 20:50:33,074 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 20:50:36,834 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 25236 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 20:50:36,835 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 20:50:36,883 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 20:50:36,883 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 20:50:37,453 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 20:50:37,455 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 20:50:37,474 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 20:50:37,485 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 20:50:37,486 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 20:50:37,497 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 20:50:38,308 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 20:50:38,319 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 20:50:38,319 - Starting service [Tomcat]
+[INFO]2024-07-15 20:50:38,320 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 20:50:38,403 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 20:50:38,403 - Root WebApplicationContext: initialization completed in 1520 ms
+[INFO]2024-07-15 20:50:38,704 - HikariPool-1 - Starting...
+[INFO]2024-07-15 20:50:38,886 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 20:50:39,031 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 20:50:39,204 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 20:50:39,302 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 20:50:39,682 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 20:50:39,689 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 20:50:40,189 - 自定义Redis配置--
+[WARN]2024-07-15 20:50:40,239 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 20:50:40,464 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 20:50:40,714 - LiveReload server is running on port 35729
+[INFO]2024-07-15 20:50:40,736 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 20:50:40,773 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 20:50:40,793 - Started TourismManagementBackendApplication in 4.335 seconds (JVM running for 5.144)
+[INFO]2024-07-15 20:50:45,436 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 20:50:45,437 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 20:50:45,437 - Completed initialization in 0 ms
+[INFO]2024-07-15 20:52:23,942 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 20:52:23,944 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 20:52:23,952 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 20:52:25,747 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 23500 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 20:52:25,747 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 20:52:25,788 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 20:52:25,788 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 20:52:26,307 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 20:52:26,308 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 20:52:26,329 - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 20:52:26,338 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 20:52:26,339 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 20:52:26,349 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 20:52:27,093 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 20:52:27,104 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 20:52:27,105 - Starting service [Tomcat]
+[INFO]2024-07-15 20:52:27,105 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 20:52:27,190 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 20:52:27,190 - Root WebApplicationContext: initialization completed in 1401 ms
+[INFO]2024-07-15 20:52:27,512 - HikariPool-1 - Starting...
+[INFO]2024-07-15 20:52:27,657 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 20:52:27,774 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 20:52:27,956 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 20:52:28,054 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 20:52:28,345 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 20:52:28,350 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 20:52:28,763 - 自定义Redis配置--
+[WARN]2024-07-15 20:52:28,809 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 20:52:28,973 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 20:52:29,164 - LiveReload server is running on port 35729
+[INFO]2024-07-15 20:52:29,183 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 20:52:29,206 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 20:52:29,221 - Started TourismManagementBackendApplication in 3.791 seconds (JVM running for 4.156)
+[INFO]2024-07-15 20:52:39,092 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 20:52:39,093 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 20:52:39,094 - Completed initialization in 1 ms
+[INFO]2024-07-15 21:00:41,017 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 21:00:41,019 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-15 21:00:41,027 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-15 21:04:25,694 - Starting TourismManagementBackendApplication using Java 17.0.1 on LAPTOP-URSHK3BO with PID 16500 (D:\xiangmu\tourism-management-backend\target\classes started by lenovo in D:\xiangmu\tourism-management-backend)
+[INFO]2024-07-15 21:04:25,695 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-15 21:04:25,736 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-15 21:04:25,736 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-15 21:04:26,241 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 21:04:26,243 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-15 21:04:26,263 - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-15 21:04:26,274 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-15 21:04:26,275 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-15 21:04:26,284 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-15 21:04:26,987 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-15 21:04:26,996 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 21:04:26,997 - Starting service [Tomcat]
+[INFO]2024-07-15 21:04:26,997 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO]2024-07-15 21:04:27,073 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-15 21:04:27,074 - Root WebApplicationContext: initialization completed in 1338 ms
+[INFO]2024-07-15 21:04:27,403 - HikariPool-1 - Starting...
+[INFO]2024-07-15 21:04:27,608 - HikariPool-1 - Start completed.
+[INFO]2024-07-15 21:04:27,750 - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO]2024-07-15 21:04:27,937 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-15 21:04:28,030 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO]2024-07-15 21:04:28,293 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-15 21:04:28,297 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-15 21:04:28,732 - 自定义Redis配置--
+[WARN]2024-07-15 21:04:28,775 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-15 21:04:28,953 - Adding welcome page: class path resource [static/index.html]
+[INFO]2024-07-15 21:04:29,139 - LiveReload server is running on port 35729
+[INFO]2024-07-15 21:04:29,154 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-15 21:04:29,177 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-15 21:04:29,192 - Started TourismManagementBackendApplication in 3.794 seconds (JVM running for 4.127)
+[INFO]2024-07-15 21:04:33,152 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-15 21:04:33,152 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-15 21:04:33,153 - Completed initialization in 1 ms

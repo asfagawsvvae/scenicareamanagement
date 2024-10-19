@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.ComplaintDao">
+    <insert id="addComplaint">
+        insert into complaint(Username, TargetType, TargetName, Content) values (#{username},#{targetType},#{targetName},#{content})
+    </insert>
+    <delete id="deleteComplaint">
+        delete from complaint where ComplaintID = #{complaintId}
+    </delete>
+
+    <select id="getComplaintListByType" resultType="com.tourismmanagementbackend.entity.Complaint">
+        select * from complaint
+        <where>
+            <if test="targetName != null and targetName != ''">TargetName like concat('%',#{targetName},'%')</if>
+            <if test="targetType != null and targetType != ''">and TargetType like concat('%',#{targetType},'%')</if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from complaint
+        <where>
+            <if test="targetName != null and targetName != ''">TargetName like concat('%',#{targetName},'%')</if>
+            <if test="targetType != null and targetType != ''">and TargetType like concat('%',#{targetType},'%')</if>
+        </where>
+    </select>
+    <select id="getComplaintListByUsername" resultType="com.tourismmanagementbackend.entity.Complaint">
+        select * from complaint where Username = #{username} limit #{page},#{limit};
+    </select>
+    <select id="getScenicAreas" resultType="java.lang.String">
+        select distinct ScenicAreaName from scenicarea;
+    </select>
+    <select id="getHotels" resultType="java.lang.String">
+        select distinct HotelName from hotel;
+    </select>
+    <select id="countPageNew" resultType="java.lang.Integer">
+        select count(*) from complaint where Username = #{username};
+    </select>
+</mapper>
+

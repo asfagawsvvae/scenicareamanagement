@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.RegistrationDao">
+    <insert id="addRegistration">
+        insert into registration(Username,Destination,Parking,Date) values(#{username},#{destination},#{parking},CURDATE());
+    </insert>
+    <update id="updateVisitorCount">
+        update scenicarea set VisitorCount = VisitorCount + 1 where ScenicAreaName = #{scenicAreaName} and Date = '今天'
+    </update>
+    <update id="updateOccupiedCapacity">
+        update scenicarea set OccupiedCapacity = OccupiedCapacity + 1 where ScenicAreaName = #{scenicAreaName} and Date = '今天'
+    </update>
+
+    <select id="getRegistrationList" resultType="com.tourismmanagementbackend.entity.Registration">
+        select * from registration
+        <where>
+            <if test="username != null and username != ''">Username like concat('%',#{username},'%') or Destination like concat('%',#{username},'%')</if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from registration
+        <where>
+            <if test="username != null and username != ''">Username like concat('%',#{username},'%') or Destination like concat('%',#{username},'%')</if>
+        </where>
+    </select>
+    <select id="checkReservation" resultType="java.lang.Integer">
+        select count(*) from visitorinfo where username = #{username} and destination = #{destination} and date = CURDATE();
+    </select>
+</mapper>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.InfoManagementDao">
+    <insert id="addInfo">
+        insert into infomanagement(Info, Timestamp, Published) values(#{info}, CONCAT(CURDATE(),' ',CURTIME()), 1)
+    </insert>
+    <update id="updateInfo">
+        update infomanagement set Info = #{info} , Timestamp = CONCAT(CURDATE(),' ',CURTIME()) where InfoId = #{infoId}
+    </update>
+    <update id="updatePublishStatus" >
+        <foreach collection="list"  item="infoId" separator=";">
+            update infomanagement
+            set Published = 2
+            where InfoId = #{infoId}
+        </foreach>
+    </update>
+
+    <select id="getInfoById" resultType="com.tourismmanagementbackend.entity.InfoManagement">
+        select * from infomanagement
+        <where>
+            <if test="info != null and info != ''">
+                and Info like concat('%', #{info}, '%')
+            </if>
+            <if test="published != null and published != 0">
+                and Published = #{published}
+            </if>
+        </where>
+        order by Timestamp desc
+
+        limit #{page}, #{limit}
+
+    </select>
+
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from infomanagement
+        <where>
+            <if test="info != null and info != ''">
+                and Info like concat('%', #{info}, '%')
+            </if>
+            <if test="published != null and published != 0">
+                and Published = #{published}
+            </if>
+        </where>
+          order by Timestamp desc
+    </select>
+
+    <select id="getInfoPublished" resultType="com.tourismmanagementbackend.entity.InfoManagement">
+        select * from infomanagement where Published = 2
+    </select>
+    <select id="countPublished" resultType="java.lang.Integer">
+        select count(*) from infomanagement where Published = 2
+    </select>
+
+</mapper>
+

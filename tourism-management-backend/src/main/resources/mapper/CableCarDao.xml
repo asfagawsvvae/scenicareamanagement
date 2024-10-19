@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.CableCarDao">
+    <insert id="addCableCar">
+        insert into cablecar(CableCarName, StartTime, EndTime, IntervalTime, Location, CableCarCode) values (#{cableCarName},#{startTime},#{endTime},#{intervalTime},#{location},#{cableCarCode})
+    </insert>
+
+    <update id="updateCableCar">
+        update cablecar
+        <set>
+            <if test="cableCarName!= null and cableCarName!= ''">
+                CableCarName = #{cableCarName},
+            </if>
+            <if test="startTime!= null and startTime!= ''">
+                StartTime = #{startTime},
+            </if>
+            <if test="endTime!= null  and endTime!= ''">
+                EndTime = #{endTime},
+            </if>
+            <if test="intervalTime!= null and intervalTime!= ''">
+                IntervalTime = #{intervalTime},
+            </if>
+            <if test="location!= null and location!= ''">
+                Location = #{location}
+            </if>
+        </set>
+        where CableCarCode = #{cableCarCode}
+    </update>
+
+    <delete id="deleteCableCar">
+        delete from cablecar where CableCarName = #{cableCarName}
+    </delete>
+
+    <select id="getCableCarByNameList" resultType="com.tourismmanagementbackend.entity.Cablecar">
+        select * from cablecar where
+        CableCarName like concat('%',#{cableCarName},'%')
+        or Location like concat('%',#{location},'%')
+        limit #{page},#{limit}
+    </select>
+
+    <select id="countPage" resultType="java.lang.Integer">
+        select count(*) from cablecar where
+        CableCarName like concat('%',#{cableCarName},'%')
+        or Location like concat('%',#{location},'%')
+    </select>
+</mapper>
+

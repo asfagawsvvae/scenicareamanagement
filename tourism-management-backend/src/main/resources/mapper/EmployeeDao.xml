@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.EmployeeDao">
+
+    <select id="getReviewList" resultType="com.tourismmanagementbackend.entity.Employee">
+        select * from employee
+        <where>
+            <if test="employeeName!=null and employeeName!=''">
+                and EmployeeName like concat('%', #{employeeName}, '%')
+            </if>
+            <if test="job!=null and job!=''">
+                and Job = #{job}
+            </if>
+            <if test="location!=null and location!=''">
+                and Location = #{location}
+            </if>
+            and job not like '%救援人员'
+        </where>
+        order by job and location
+        limit #{page}, #{limit}
+    </select>
+
+    <select id="countPage" resultType="int">
+        select count(*) from employee
+        <where>
+            <if test="employeeName!=null and employeeName!=''">
+                and EmployeeName like concat('%', #{employeeName}, '%')
+            </if>
+            <if test="job!=null and job!=''">
+                and Job = #{job}
+            </if>
+            <if test="location!=null and location!=''">
+                and Location = #{location}
+            </if>
+            and job not like '%救援人员'
+        </where>
+    </select>
+
+    <delete id="deleteEmployeeByEmployeeID">
+        delete from employee where EmployeeID = #{id}
+    </delete>
+
+    <insert id="addEmployee">
+        insert into employee(EmployeeName, Gender, Age, Job, Location)
+        values
+        (#{employeeName}, #{gender}, #{age}, #{job}, #{location})
+    </insert>
+
+    <update id="updateEmployee">
+        update employee
+        <set>
+            <if test="employeeName!=null and employeeName!=''">
+                EmployeeName = #{employeeName},
+            </if>
+            <if test="gender!=null and gender!=''">
+                Gender = #{gender},
+            </if>
+            <if test="age!=null and age!=''">
+                Age = #{age},
+            </if>
+            <if test="job!=null and job!=''">
+                Job = #{job},
+            </if>
+            <if test="location!=null and location!=''">
+                Location = #{location},
+            </if>
+        </set>
+        where EmployeeID = #{employeeId}
+    </update>
+
+    <select id="getJobList" resultType="java.lang.String">
+        select distinct job from employee where job not like '%救援人员'
+    </select>
+
+    <select id="getLocationList" resultType="java.lang.String">
+        select distinct location from employee
+    </select>
+
+    <select id="getRescuerList" resultType="com.tourismmanagementbackend.entity.Employee">
+        select * from employee
+        <where>
+            <if test="employeeName!=null and employeeName!=''">
+                and EmployeeName like concat('%', #{employeeName}, '%')
+            </if>
+            <if test="location!=null and location!=''">
+                and Location = #{location}
+            </if>
+            and Job like '%救援人员'
+        </where>
+        order by job and location
+        limit #{page}, #{limit}
+    </select>
+
+    <select id="countRescuerPage" resultType="int">
+        select count(*) from employee
+        <where>
+            <if test="employeeName!=null and employeeName!=''">
+                and EmployeeName like concat('%', #{employeeName}, '%')
+            </if>
+            <if test="location!=null and location!=''">
+                and Location = #{location}
+            </if>
+            and Job like '%救援人员'
+        </where>
+    </select>
+</mapper>

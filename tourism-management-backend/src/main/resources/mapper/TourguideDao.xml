@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tourismmanagementbackend.dao.TourguideDao">
+<!--寻找在职导游-->
+    <select id="getTourguideByNameList" resultType="com.tourismmanagementbackend.entity.Tourguide">
+        select * from Tourguide
+        <where>
+            <if test="guidename != null and guidename != ''">
+                and Guidename like concat('%', #{guidename}, '%')
+            </if>
+            and employmentstatus = 1
+        </where>
+        limit #{page}, #{limit}
+
+    </select>
+
+    <select id="countPage" resultType="int">
+
+        select  count(*) from Tourguide
+        <where>
+            <if test="guidename!=null and guidename != '' ">
+                and Guidename like concat('%',#{guidename},'%')
+            </if>
+            and employmentstatus = 1
+        </where>
+
+    </select>
+
+<!--寻找申请导游-->
+
+    <select id="getTourguideByNameList1" resultType="com.tourismmanagementbackend.entity.Tourguide">
+        select * from visitortourguide
+        <where>
+            <if test="guidename != null and guidename != ''">
+                and Guidename like concat('%', #{guidename}, '%')
+            </if>
+            and employmentstatus = 2
+        </where>
+        limit #{page}, #{limit}
+
+    </select>
+    <!--申请导游人数-->
+    <select id="countPage1" resultType="int">
+
+        select  count(*) from visitortourguide
+        <where>
+            <if test="guidename!=null and guidename != '' ">
+                and Guidename like concat('%',#{guidename},'%')
+            </if>
+            and employmentstatus = 2
+        </where>
+
+    </select>
+
+
+<!--    由旅游社获得导游-->
+    <select id="getGuideNameList" resultType="com.tourismmanagementbackend.entity.Tourguide">
+        select guidename,guideid from tourguide where agencyname=#{agencyname}
+    </select>
+
+
+
+
+
+
+    <insert id="updateTourguide">
+
+        insert  tourguide (guidename, gender, age, agencyname,rating,EmploymentStatus)
+        values
+        (#{guidename},#{gender},#{age},#{agencyname},'0.00','1')
+    </insert>
+
+    <delete id="deleteTourguide">
+        delete  from visitortourguide where guideid=#{guideid}
+    </delete>
+
+
+    <insert id="addTourguide">
+
+        insert  visitortourguide (guidename, gender, age, agencyname,rating,EmploymentStatus)
+        values
+        (#{guidename},#{gender},#{age},#{agencyname},'0.00','2')
+    </insert>
+
+</mapper>
+
